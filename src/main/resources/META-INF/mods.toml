@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="chatdwellers"
+version="1.0.0"
+displayName="ChatDwellers"
+description="Skins Vault Dwellers spawning near you as Twitch viewers who redeem channel points."
+
+[[dependencies.chatdwellers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.chatdwellers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.chatdwellers]]
+    modId="the_vault"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="CLIENT"

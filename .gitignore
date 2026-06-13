@@ -1,0 +1,32 @@
+# --- Secrets: never commit the Twitch Client ID / tokens ---
+# Local mod config holding twitchClientId, reward IDs, and OAuth tokens.
+**/chatdwellers-secret*.toml
+**/chatdwellers-local*.toml
+*.local.toml
+.env
+token.json
+auth.json
+
+# --- Gradle / Forge build artifacts ---
+.gradle/
+build/
+out/
+run/
+runs/
+logs/
+*.classpath
+*.project
+bin/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.settings/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Local worktrees ---
+.worktrees/
